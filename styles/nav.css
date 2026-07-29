@@ -1,0 +1,126 @@
+/* Navbar styles for CapusNav */
+
+
+.site-nav {
+    background: linear-gradient(135deg, #0D47A1 10%, #61a5e9 100%);
+    padding: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+
+}
+
+
+.site-nav a:hover,
+.site-nav a:focus {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Active page indicator using attribute selector */
+.site-nav a[href$="index.html"]:where(:not([data-active])) {
+    color: #ff6a00;
+    border-bottom: 2px solid #ff6a00
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .site-nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+/* Utility for highlighting current page: add class `active` to links if desired */
+.site-nav a.active {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.site-nav img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+.site {
+    background: linear-gradient(180deg, #a9aaac 0%, #494c50);
+    color: #E0E0E0;
+    padding: 50px 20px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 10px;
+    columns: 3;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.column h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.margin_bottom {
+    margin-bottom: 13px;
+}
+
+.column p {
+    line-height: 1.7;
+    color: #B0BEC5;
+}
+
+.column a {
+    color: #00b0ff;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.payment {
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.payment img {
+    height: 25px;
+}
+
+.bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #90A4AE;
+}
