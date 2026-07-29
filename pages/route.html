@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>campusNav</title>
     <link rel="stylesheet" href="../styles/nav.css">
-    <link rel="stylesheet" href="../styles/building.css">
+    <link rel="stylesheet" href="../styles/route.css">
 </head>
 
 <body>
@@ -24,6 +24,39 @@
                 <li><a href="../pages/route.html">Route</a></li>
             </ul>
         </nav>
+    </section>
+
+    <!--form-->
+    <section>
+        <div class="container">
+            <h1>Get Directions</h1>
+            <div class="route-form">
+                <label>From:</label>
+                <select id="from-select">
+                    <option>Main Gate</option>
+                    <option>campus A</option>
+                    <option>campus B</option>
+                    <option>Current Location</option>
+                </select>
+
+                <label>To:</label>
+                <select id="to-select">
+                    <option>Main Administration Block</option>
+                    <option>Faculty of Science & Technology</option>
+                    <option>University Library</option>
+                    <option>University Chapel</option>
+                    <option>Restaurant</option>
+                </select>
+
+                <button class="btn btn-gold" onclick="showRoute()">Show Route</button>
+            </div>
+
+            <div class="route-result" id="route-result">
+                <h3 id="route-time" style="color:var(--blue)"></h3>
+                <ol id="route-steps"></ol>
+            </div>
+        </div>
+
     </section>
 
 

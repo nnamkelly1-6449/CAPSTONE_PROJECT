@@ -42,7 +42,7 @@
 .content {
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3.5s steps(100, end), blink 0.7s step-end infinite;
+    animation: typing 3.5s steps(40, end), blink 0.7s step-end infinite;
 }
 
 @keyframes typing {
@@ -96,7 +96,7 @@ button:hover {
     }
 
     50% {
-        transform: scale(1.5);
+        transform: scale(1.02);
     }
 }
 
@@ -132,7 +132,7 @@ button:hover {
 
 
 .animation-on-scroll {
-    opacity: 0.8;
+    opacity: 3;
     transform: translateY(20px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
