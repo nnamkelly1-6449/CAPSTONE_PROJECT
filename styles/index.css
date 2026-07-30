@@ -69,21 +69,21 @@
 }
 
 p {
+    margin-bottom: 80px;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-button {
+.button {
     margin-top: 50px;
     border-radius: 20px;
-    height: 60px;
-    width: 150px;
+    padding: 30px;
     background: var(--primary-color);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     animation: pulse 2s infinite;
 }
 
-button:hover {
+.button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 178, 255, 0.5);
 }
@@ -92,7 +92,7 @@ button:hover {
 
     0%,
     100% {
-        transform: scale(1);
+        transform: scale(2);
     }
 
     50% {

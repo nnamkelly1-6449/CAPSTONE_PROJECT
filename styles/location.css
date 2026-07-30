@@ -26,3 +26,14 @@
 .margin_top {
     margin-top: 15px;
 }
+
+.text-align {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+    background: var(--primary-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    animation: pulse 2s infinite;
+}
