@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CapusNav - Contact</title>
     <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body>
@@ -23,6 +24,64 @@
                 <li><a href="../pages/route.html">Route</a></li>
             </ul>
         </nav>
+    </section>
+
+
+    <!--contact-->
+    <section>
+        <div class="contact-wrapper">
+            <!-- LEFT -->
+            <div class="contact-info">
+                <h2 margin_bottom>Get In <span>Touch</span></h2>
+                <p>We’re here to help you navigate CATUC Bamenda Campus</p>
+
+                <div class="info-item">
+                    <div class="icon">📍</div>
+                    <div>Mile 4 Ntarikon, Bamenda<br>Northwest Region, Cameroon</div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">📞</div>
+                    <div>+237 6XX XXX XXX</div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">✉️</div>
+                    <div>bamenda@catuc.cm</div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">🕒</div>
+                    <div>Mon - Fri: 8am - 4pm</div>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="contact-form">
+                <h2 margin_bottom>Send a Message</h2>
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+
+                <div class="success-message" id="successMsg">
+                    ✅ Message Sent Successfully! We will reply within 48hrs.
+                </div>
+            </div>
+        </div>
+
     </section>
 
 

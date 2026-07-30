@@ -7,7 +7,7 @@
 }
 
 .nearby-list li {
-    background: #e7c3aa;
+    background: white;
     border-left: 4px solid blue;
     display: flex;
     justify-content: space-between;
