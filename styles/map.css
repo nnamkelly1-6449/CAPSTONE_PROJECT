@@ -1,0 +1,18 @@
+@import "./base.css";
+@import "./reset.css";
+
+
+.map-box {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.legend {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    background: var(--primary-color);
+    padding: 15px;
+    border-radius: 8px;
+}
