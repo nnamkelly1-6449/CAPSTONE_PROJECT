@@ -7,9 +7,12 @@
 }
 
 .nearby-list li {
-    background: white;
-    border-left: 4px solid blue;
+    border-left: 4px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     display: flex;
+    width: 70%;
+    margin-left: 200px;
+    padding: 20px;
     justify-content: space-between;
     border-radius: 6px;
     font-size: 30px;
@@ -33,7 +36,12 @@
 
 .btn {
     border-radius: 20px;
-    background: var(--primary-color);
+    background: var(--secondary-color);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     animation: pulse 2s infinite;
+    margin-left: 550px;
+}
+
+p {
+    color: var(--primary-color);
 }

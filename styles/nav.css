@@ -1,8 +1,8 @@
 /* Navbar styles for CapusNav */
-
+@import "./base.css";
+@import "./reset.css";
 
 .site-nav {
-    background: linear-gradient(135deg, #0D47A1 10%, #61a5e9 100%);
     padding: 10px 20px;
     justify-content: space-between;
     display: flex;
@@ -21,7 +21,7 @@
 
 .site-nav a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-light);
     font-weight: 600;
     padding: 8px 12px;
     border-radius: 4px;

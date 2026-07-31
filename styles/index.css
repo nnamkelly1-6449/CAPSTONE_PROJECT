@@ -36,7 +36,6 @@
     display: grid;
     gap: 8px;
     grid-template-columns: repeat(2, 1fr);
-    background: linear-gradient(135deg, #0D47A1 10%, #61a5e9 100%);
 }
 
 .content {
