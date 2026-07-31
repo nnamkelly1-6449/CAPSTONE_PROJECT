@@ -1,11 +1,7 @@
 @import "./base.css";
 @import "./reset.css";
 
-:root {
-    --primary-color: #0D47A1;
-    --secondary-color: #ff6a00;
-    --text-light: #fff;
-}
+
 
 .search-bar {
     width: 100%;
