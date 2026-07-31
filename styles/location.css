@@ -36,12 +36,29 @@
 
 .btn {
     border-radius: 20px;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     animation: pulse 2s infinite;
     margin-left: 550px;
+    color: var(--light);
+}
+
+.btn:hover {
+    color: var(--light);
+    background-color: var(--background);
 }
 
 .primary {
     color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+
+.bg {
+    background: var(--secondary-color);
+    font-size: 20px;
+
 }
