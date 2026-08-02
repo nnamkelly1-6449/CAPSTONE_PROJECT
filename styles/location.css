@@ -1,7 +1,6 @@
 @import "./base.css";
 @import "./reset.css";
 
-
 .nearby-list {
     list-style: none;
 }
@@ -52,10 +51,6 @@
     color: var(--primary-color);
 }
 
-.secondary {
-    color: var(--secondary-color);
-    background: var(--primary-color);
-}
 
 .bg {
     background: var(--secondary-color);

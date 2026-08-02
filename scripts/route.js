@@ -3,20 +3,20 @@ const routes = {
     time: "Walking: ~2 mins | 100m",
     steps: [
       "Start at Main Gate",
-      "Walk straight for 100m",
+      "Walk straight for 20m",
       "Admin Block is the big building on your right",
     ],
   },
   "Faculty of Science & Technology": {
-    time: "Walking: ~5 mins | 350m",
+    time: "Walking: ~4 mins | 250m",
     steps: [
       "From Main Gate, walk past Admin Block",
       "Turn left at the roundabout",
-      "Faculty is the 2nd building with blue roof",
+      "Faculty is the 2nd building with CATUC bill board",
     ],
   },
   "University Library": {
-    time: "Walking: ~4 mins | 250m",
+    time: "Walking: ~5 mins | 450m",
     steps: [
       "Start at Main Gate",
       "Walk straight",
@@ -35,12 +35,16 @@ const routes = {
     steps: [
       "Exit Main Gate area",
       "Walk towards Hostels",
-      "Cafeteria is between Hostel A and B",
+      "Cafeteria is between Hostel and secondary school St Joseph's prima",
     ],
   },
-  "Campus Clinic": {
-    time: "Walking: ~7 mins | 450m",
-    steps: ["From Main Gate, go past Cafeteria", "Clinic is next to Hostel B"],
+  "Finance Office": {
+    time: "Walking: ~3 mins | 150m",
+    steps: [
+      "From Main Gate, go past Administrative Block",
+      "turn left and walk straight into St Micheals block",
+      "Finance office is at the coridour on the first floor",
+    ],
   },
 };
 

@@ -1,20 +1,23 @@
+@import "./base.css";
+@import "./reset.css";
+
 .route-form {
     display: grid;
     gap: 15px;
-    background: white;
+    background: var(--light);
     padding: 20px;
     border-radius: 10px;
 }
 
 .route-form select {
     padding: 10px;
-    border: 1px solid #ffc107;
+    border: 1px solid var(--secondary-color);
     border-radius: 6px;
 }
 
 .route-result {
     margin-top: 30px;
-    background: white;
+    background: var(--light);
     padding: 20px;
     border-radius: 10px;
     display: none;
@@ -22,35 +25,28 @@
 
 h1 {
     text-align: center;
-    text-decoration: underline solid blue;
+    text-decoration: underline solid var(--primary-color);
     margin-top: 30px;
 }
 
 .btn {
-    background: blue;
-    width: 300px;
-    padding: 10px;
-    margin-left: 500px;
+    background: var(--primary-color);
+    padding: 8px;
     border-radius: 8px;
-    color: white;
+    color: var(--light);
     border: none;
     margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .btn:hover {
     transform: scale(1);
     transition: 0.8s;
-    background-color: #FFC107;
+    background-color: var(--secondary-color);
 }
 
 .route-result ol {
     margin-left: 20px;
     line-height: 2;
-}
-
-@media (max-width: 768px) {
-    .footer-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
 }

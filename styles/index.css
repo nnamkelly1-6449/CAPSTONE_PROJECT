@@ -6,6 +6,10 @@
     color: var(--text-light);
 }
 
+.padding {
+    padding: 30px;
+}
+
 .margin-bottom {
     margin-bottom: 10px;
 }
@@ -38,28 +42,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.content {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 3.5s steps(40, end), blink 0.7s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 50%;
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-
 .content h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -87,17 +69,6 @@ p {
     box-shadow: 0 0 15px rgba(0, 178, 255, 0.5);
 }
 
-@keyframes pulse {
-
-    0%,
-    100% {
-        transform: scale(2);
-    }
-
-    50% {
-        transform: scale(1.02);
-    }
-}
 
 .hero img {
     width: 400px;
